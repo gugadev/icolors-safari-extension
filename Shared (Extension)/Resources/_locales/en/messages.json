@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "icolors-safari-extension",
-        "description": "The display name for the extension."
+        "message": "iColors Safari",
+        "description": "Change your browser color to match with you 🧡"
     },
     "extension_description": {
-        "message": "This is icolors-safari-extension. You should tell us what your extension does here.",
-        "description": "Description of what the extension does."
+        "message": "This is iColors Safari extension. This extension allows you to customize the color of your browser by choosing a color of your preference.",
+        "description": "This extension allows you to customize the color of your browser by choosing a color of your preference."
     }
 }

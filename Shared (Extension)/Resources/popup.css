@@ -1,15 +1,38 @@
 :root {
     color-scheme: light dark;
 }
-
 body {
-    width: 100px;
+    width: 140px;
     padding: 10px;
-
     font-family: system-ui;
     text-align: center;
+    color: #333;
+}
+.title {
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0 0 16px 0;
+}
+.footer {
+    font-size: 12px;
+}
+.themeOptionsSeparator {
+    padding: 0;
+}
+.themeOptionsSeparator p {
+    text-align: center;
+    font-size: 13px;
+}
+.themeColorPicker {
+    padding-bottom: 8px;
+}
+.themeActionBtn {
+    padding: 2px 4px 4px 4px;
 }
 
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
+    body {
+        color: #f7f8f9;
+    }
 }
