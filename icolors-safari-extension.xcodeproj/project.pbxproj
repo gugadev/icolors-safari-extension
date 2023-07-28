@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12FB0D72A742AE2009AFBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12FB0D62A742AE2009AFBFE /* AppDelegate.swift */; };
+		E12FB0D92A742AE2009AFBFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12FB0D82A742AE2009AFBFE /* SceneDelegate.swift */; };
+		E12FB0DC2A742AE2009AFBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0DA2A742AE2009AFBFE /* LaunchScreen.storyboard */; };
+		E12FB0DF2A742AE2009AFBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0DD2A742AE2009AFBFE /* Main.storyboard */; };
+		E12FB0E82A742AE2009AFBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12FB0E72A742AE2009AFBFE /* AppDelegate.swift */; };
+		E12FB0EB2A742AE2009AFBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0E92A742AE2009AFBFE /* Main.storyboard */; };
+		E12FB0F22A742AE3009AFBFE /* icolors-safari-extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E12FB0F12A742AE3009AFBFE /* icolors-safari-extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E12FB0FC2A742AE3009AFBFE /* icolors-safari-extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E12FB0FB2A742AE3009AFBFE /* icolors-safari-extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E12FB1022A742AE3009AFBFE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0BD2A742AE0009AFBFE /* Main.html */; };
+		E12FB1032A742AE3009AFBFE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0BD2A742AE0009AFBFE /* Main.html */; };
+		E12FB1042A742AE3009AFBFE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0BF2A742AE0009AFBFE /* Icon.png */; };
+		E12FB1052A742AE3009AFBFE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0BF2A742AE0009AFBFE /* Icon.png */; };
+		E12FB1062A742AE3009AFBFE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C02A742AE0009AFBFE /* Style.css */; };
+		E12FB1072A742AE3009AFBFE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C02A742AE0009AFBFE /* Style.css */; };
+		E12FB1082A742AE3009AFBFE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C12A742AE0009AFBFE /* Script.js */; };
+		E12FB1092A742AE3009AFBFE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C12A742AE0009AFBFE /* Script.js */; };
+		E12FB10A2A742AE3009AFBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12FB0C22A742AE0009AFBFE /* ViewController.swift */; };
+		E12FB10B2A742AE3009AFBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12FB0C22A742AE0009AFBFE /* ViewController.swift */; };
+		E12FB10C2A742AE3009AFBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C32A742AE2009AFBFE /* Assets.xcassets */; };
+		E12FB10D2A742AE3009AFBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C32A742AE2009AFBFE /* Assets.xcassets */; };
+		E12FB10E2A742AE3009AFBFE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12FB0C52A742AE2009AFBFE /* SafariWebExtensionHandler.swift */; };
+		E12FB10F2A742AE3009AFBFE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12FB0C52A742AE2009AFBFE /* SafariWebExtensionHandler.swift */; };
+		E12FB1102A742AE3009AFBFE /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C72A742AE2009AFBFE /* _locales */; };
+		E12FB1112A742AE3009AFBFE /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C72A742AE2009AFBFE /* _locales */; };
+		E12FB1122A742AE3009AFBFE /* images in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C82A742AE2009AFBFE /* images */; };
+		E12FB1132A742AE3009AFBFE /* images in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C82A742AE2009AFBFE /* images */; };
+		E12FB1142A742AE3009AFBFE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C92A742AE2009AFBFE /* manifest.json */; };
+		E12FB1152A742AE3009AFBFE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0C92A742AE2009AFBFE /* manifest.json */; };
+		E12FB1162A742AE3009AFBFE /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CA2A742AE2009AFBFE /* background.js */; };
+		E12FB1172A742AE3009AFBFE /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CA2A742AE2009AFBFE /* background.js */; };
+		E12FB1182A742AE3009AFBFE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CB2A742AE2009AFBFE /* content.js */; };
+		E12FB1192A742AE3009AFBFE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CB2A742AE2009AFBFE /* content.js */; };
+		E12FB11A2A742AE3009AFBFE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CC2A742AE2009AFBFE /* popup.html */; };
+		E12FB11B2A742AE3009AFBFE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CC2A742AE2009AFBFE /* popup.html */; };
+		E12FB11C2A742AE3009AFBFE /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CD2A742AE2009AFBFE /* popup.css */; };
+		E12FB11D2A742AE3009AFBFE /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CD2A742AE2009AFBFE /* popup.css */; };
+		E12FB11E2A742AE3009AFBFE /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CE2A742AE2009AFBFE /* popup.js */; };
+		E12FB11F2A742AE3009AFBFE /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E12FB0CE2A742AE2009AFBFE /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E12FB0F32A742AE3009AFBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12FB0B72A742AE0009AFBFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12FB0F02A742AE3009AFBFE;
+			remoteInfo = "icolors-safari-extension Extension (iOS)";
+		};
+		E12FB0FD2A742AE3009AFBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12FB0B72A742AE0009AFBFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12FB0FA2A742AE3009AFBFE;
+			remoteInfo = "icolors-safari-extension Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E12FB1252A742AE3009AFBFE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E12FB0F22A742AE3009AFBFE /* icolors-safari-extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB12C2A742AE3009AFBFE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E12FB0FC2A742AE3009AFBFE /* icolors-safari-extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E12FB0BE2A742AE0009AFBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		E12FB0BF2A742AE0009AFBFE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E12FB0C02A742AE0009AFBFE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		E12FB0C12A742AE0009AFBFE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		E12FB0C22A742AE0009AFBFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E12FB0C32A742AE2009AFBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E12FB0C52A742AE2009AFBFE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		E12FB0C72A742AE2009AFBFE /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		E12FB0C82A742AE2009AFBFE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		E12FB0C92A742AE2009AFBFE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		E12FB0CA2A742AE2009AFBFE /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		E12FB0CB2A742AE2009AFBFE /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		E12FB0CC2A742AE2009AFBFE /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		E12FB0CD2A742AE2009AFBFE /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		E12FB0CE2A742AE2009AFBFE /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		E12FB0D32A742AE2009AFBFE /* icolors-safari-extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "icolors-safari-extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12FB0D62A742AE2009AFBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E12FB0D82A742AE2009AFBFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E12FB0DB2A742AE2009AFBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E12FB0DE2A742AE2009AFBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E12FB0E02A742AE2009AFBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12FB0E52A742AE2009AFBFE /* icolors-safari-extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "icolors-safari-extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12FB0E72A742AE2009AFBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E12FB0EA2A742AE2009AFBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E12FB0EC2A742AE2009AFBFE /* icolors-safari-extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "icolors-safari-extension.entitlements"; sourceTree = "<group>"; };
+		E12FB0F12A742AE3009AFBFE /* icolors-safari-extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "icolors-safari-extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12FB0F62A742AE3009AFBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12FB0FB2A742AE3009AFBFE /* icolors-safari-extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "icolors-safari-extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12FB1002A742AE3009AFBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12FB1012A742AE3009AFBFE /* icolors-safari-extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "icolors-safari-extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12FB0D02A742AE2009AFBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB0E22A742AE2009AFBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB0EE2A742AE3009AFBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB0F82A742AE3009AFBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E12FB0B62A742AE0009AFBFE = {
+			isa = PBXGroup;
+			children = (
+				E12FB0BB2A742AE0009AFBFE /* Shared (App) */,
+				E12FB0C42A742AE2009AFBFE /* Shared (Extension) */,
+				E12FB0D52A742AE2009AFBFE /* iOS (App) */,
+				E12FB0E62A742AE2009AFBFE /* macOS (App) */,
+				E12FB0F52A742AE3009AFBFE /* iOS (Extension) */,
+				E12FB0FF2A742AE3009AFBFE /* macOS (Extension) */,
+				E12FB0D42A742AE2009AFBFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E12FB0BB2A742AE0009AFBFE /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E12FB0C22A742AE0009AFBFE /* ViewController.swift */,
+				E12FB0C32A742AE2009AFBFE /* Assets.xcassets */,
+				E12FB0BC2A742AE0009AFBFE /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		E12FB0BC2A742AE0009AFBFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E12FB0BD2A742AE0009AFBFE /* Main.html */,
+				E12FB0BF2A742AE0009AFBFE /* Icon.png */,
+				E12FB0C02A742AE0009AFBFE /* Style.css */,
+				E12FB0C12A742AE0009AFBFE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E12FB0C42A742AE2009AFBFE /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E12FB0C52A742AE2009AFBFE /* SafariWebExtensionHandler.swift */,
+				E12FB0C62A742AE2009AFBFE /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		E12FB0C62A742AE2009AFBFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E12FB0C72A742AE2009AFBFE /* _locales */,
+				E12FB0C82A742AE2009AFBFE /* images */,
+				E12FB0C92A742AE2009AFBFE /* manifest.json */,
+				E12FB0CA2A742AE2009AFBFE /* background.js */,
+				E12FB0CB2A742AE2009AFBFE /* content.js */,
+				E12FB0CC2A742AE2009AFBFE /* popup.html */,
+				E12FB0CD2A742AE2009AFBFE /* popup.css */,
+				E12FB0CE2A742AE2009AFBFE /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E12FB0D42A742AE2009AFBFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12FB0D32A742AE2009AFBFE /* icolors-safari-extension.app */,
+				E12FB0E52A742AE2009AFBFE /* icolors-safari-extension.app */,
+				E12FB0F12A742AE3009AFBFE /* icolors-safari-extension Extension.appex */,
+				E12FB0FB2A742AE3009AFBFE /* icolors-safari-extension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E12FB0D52A742AE2009AFBFE /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E12FB0D62A742AE2009AFBFE /* AppDelegate.swift */,
+				E12FB0D82A742AE2009AFBFE /* SceneDelegate.swift */,
+				E12FB0DA2A742AE2009AFBFE /* LaunchScreen.storyboard */,
+				E12FB0DD2A742AE2009AFBFE /* Main.storyboard */,
+				E12FB0E02A742AE2009AFBFE /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		E12FB0E62A742AE2009AFBFE /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E12FB0E72A742AE2009AFBFE /* AppDelegate.swift */,
+				E12FB0E92A742AE2009AFBFE /* Main.storyboard */,
+				E12FB0EC2A742AE2009AFBFE /* icolors-safari-extension.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		E12FB0F52A742AE3009AFBFE /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E12FB0F62A742AE3009AFBFE /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		E12FB0FF2A742AE3009AFBFE /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E12FB1002A742AE3009AFBFE /* Info.plist */,
+				E12FB1012A742AE3009AFBFE /* icolors-safari-extension.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12FB0D22A742AE2009AFBFE /* icolors-safari-extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12FB1262A742AE3009AFBFE /* Build configuration list for PBXNativeTarget "icolors-safari-extension (iOS)" */;
+			buildPhases = (
+				E12FB0CF2A742AE2009AFBFE /* Sources */,
+				E12FB0D02A742AE2009AFBFE /* Frameworks */,
+				E12FB0D12A742AE2009AFBFE /* Resources */,
+				E12FB1252A742AE3009AFBFE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E12FB0F42A742AE3009AFBFE /* PBXTargetDependency */,
+			);
+			name = "icolors-safari-extension (iOS)";
+			productName = "icolors-safari-extension (iOS)";
+			productReference = E12FB0D32A742AE2009AFBFE /* icolors-safari-extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E12FB0E42A742AE2009AFBFE /* icolors-safari-extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12FB12D2A742AE3009AFBFE /* Build configuration list for PBXNativeTarget "icolors-safari-extension (macOS)" */;
+			buildPhases = (
+				E12FB0E12A742AE2009AFBFE /* Sources */,
+				E12FB0E22A742AE2009AFBFE /* Frameworks */,
+				E12FB0E32A742AE2009AFBFE /* Resources */,
+				E12FB12C2A742AE3009AFBFE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E12FB0FE2A742AE3009AFBFE /* PBXTargetDependency */,
+			);
+			name = "icolors-safari-extension (macOS)";
+			productName = "icolors-safari-extension (macOS)";
+			productReference = E12FB0E52A742AE2009AFBFE /* icolors-safari-extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E12FB0F02A742AE3009AFBFE /* icolors-safari-extension Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12FB1222A742AE3009AFBFE /* Build configuration list for PBXNativeTarget "icolors-safari-extension Extension (iOS)" */;
+			buildPhases = (
+				E12FB0ED2A742AE3009AFBFE /* Sources */,
+				E12FB0EE2A742AE3009AFBFE /* Frameworks */,
+				E12FB0EF2A742AE3009AFBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "icolors-safari-extension Extension (iOS)";
+			productName = "icolors-safari-extension Extension (iOS)";
+			productReference = E12FB0F12A742AE3009AFBFE /* icolors-safari-extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E12FB0FA2A742AE3009AFBFE /* icolors-safari-extension Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12FB1292A742AE3009AFBFE /* Build configuration list for PBXNativeTarget "icolors-safari-extension Extension (macOS)" */;
+			buildPhases = (
+				E12FB0F72A742AE3009AFBFE /* Sources */,
+				E12FB0F82A742AE3009AFBFE /* Frameworks */,
+				E12FB0F92A742AE3009AFBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "icolors-safari-extension Extension (macOS)";
+			productName = "icolors-safari-extension Extension (macOS)";
+			productReference = E12FB0FB2A742AE3009AFBFE /* icolors-safari-extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12FB0B72A742AE0009AFBFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E12FB0D22A742AE2009AFBFE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E12FB0E42A742AE2009AFBFE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E12FB0F02A742AE3009AFBFE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E12FB0FA2A742AE3009AFBFE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E12FB0BA2A742AE0009AFBFE /* Build configuration list for PBXProject "icolors-safari-extension" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E12FB0B62A742AE0009AFBFE;
+			productRefGroup = E12FB0D42A742AE2009AFBFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12FB0D22A742AE2009AFBFE /* icolors-safari-extension (iOS) */,
+				E12FB0E42A742AE2009AFBFE /* icolors-safari-extension (macOS) */,
+				E12FB0F02A742AE3009AFBFE /* icolors-safari-extension Extension (iOS) */,
+				E12FB0FA2A742AE3009AFBFE /* icolors-safari-extension Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E12FB0D12A742AE2009AFBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FB1042A742AE3009AFBFE /* Icon.png in Resources */,
+				E12FB0DC2A742AE2009AFBFE /* LaunchScreen.storyboard in Resources */,
+				E12FB1022A742AE3009AFBFE /* Main.html in Resources */,
+				E12FB1082A742AE3009AFBFE /* Script.js in Resources */,
+				E12FB10C2A742AE3009AFBFE /* Assets.xcassets in Resources */,
+				E12FB0DF2A742AE2009AFBFE /* Main.storyboard in Resources */,
+				E12FB1062A742AE3009AFBFE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB0E32A742AE2009AFBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FB1052A742AE3009AFBFE /* Icon.png in Resources */,
+				E12FB1072A742AE3009AFBFE /* Style.css in Resources */,
+				E12FB0EB2A742AE2009AFBFE /* Main.storyboard in Resources */,
+				E12FB1092A742AE3009AFBFE /* Script.js in Resources */,
+				E12FB10D2A742AE3009AFBFE /* Assets.xcassets in Resources */,
+				E12FB1032A742AE3009AFBFE /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB0EF2A742AE3009AFBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FB1162A742AE3009AFBFE /* background.js in Resources */,
+				E12FB11C2A742AE3009AFBFE /* popup.css in Resources */,
+				E12FB11A2A742AE3009AFBFE /* popup.html in Resources */,
+				E12FB1122A742AE3009AFBFE /* images in Resources */,
+				E12FB1142A742AE3009AFBFE /* manifest.json in Resources */,
+				E12FB1102A742AE3009AFBFE /* _locales in Resources */,
+				E12FB1182A742AE3009AFBFE /* content.js in Resources */,
+				E12FB11E2A742AE3009AFBFE /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB0F92A742AE3009AFBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FB1172A742AE3009AFBFE /* background.js in Resources */,
+				E12FB11D2A742AE3009AFBFE /* popup.css in Resources */,
+				E12FB11B2A742AE3009AFBFE /* popup.html in Resources */,
+				E12FB1132A742AE3009AFBFE /* images in Resources */,
+				E12FB1152A742AE3009AFBFE /* manifest.json in Resources */,
+				E12FB1112A742AE3009AFBFE /* _locales in Resources */,
+				E12FB1192A742AE3009AFBFE /* content.js in Resources */,
+				E12FB11F2A742AE3009AFBFE /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12FB0CF2A742AE2009AFBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FB10A2A742AE3009AFBFE /* ViewController.swift in Sources */,
+				E12FB0D72A742AE2009AFBFE /* AppDelegate.swift in Sources */,
+				E12FB0D92A742AE2009AFBFE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB0E12A742AE2009AFBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FB10B2A742AE3009AFBFE /* ViewController.swift in Sources */,
+				E12FB0E82A742AE2009AFBFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB0ED2A742AE3009AFBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FB10E2A742AE3009AFBFE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FB0F72A742AE3009AFBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FB10F2A742AE3009AFBFE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E12FB0F42A742AE3009AFBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E12FB0F02A742AE3009AFBFE /* icolors-safari-extension Extension (iOS) */;
+			targetProxy = E12FB0F32A742AE3009AFBFE /* PBXContainerItemProxy */;
+		};
+		E12FB0FE2A742AE3009AFBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E12FB0FA2A742AE3009AFBFE /* icolors-safari-extension Extension (macOS) */;
+			targetProxy = E12FB0FD2A742AE3009AFBFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E12FB0BD2A742AE0009AFBFE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12FB0BE2A742AE0009AFBFE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		E12FB0DA2A742AE2009AFBFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12FB0DB2A742AE2009AFBFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E12FB0DD2A742AE2009AFBFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12FB0DE2A742AE2009AFBFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E12FB0E92A742AE2009AFBFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12FB0EA2A742AE2009AFBFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E12FB1202A742AE3009AFBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E12FB1212A742AE3009AFBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E12FB1232A742AE3009AFBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "icolors-safari-extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.icolors-safari-extension.Extension";
+				PRODUCT_NAME = "icolors-safari-extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E12FB1242A742AE3009AFBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "icolors-safari-extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.icolors-safari-extension.Extension";
+				PRODUCT_NAME = "icolors-safari-extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E12FB1272A742AE3009AFBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "icolors-safari-extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.icolors-safari-extension";
+				PRODUCT_NAME = "icolors-safari-extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E12FB1282A742AE3009AFBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "icolors-safari-extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.icolors-safari-extension";
+				PRODUCT_NAME = "icolors-safari-extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E12FB12A2A742AE3009AFBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/icolors-safari-extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "icolors-safari-extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.icolors-safari-extension.Extension";
+				PRODUCT_NAME = "icolors-safari-extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E12FB12B2A742AE3009AFBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/icolors-safari-extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "icolors-safari-extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.icolors-safari-extension.Extension";
+				PRODUCT_NAME = "icolors-safari-extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E12FB12E2A742AE3009AFBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/icolors-safari-extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "icolors-safari-extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.icolors-safari-extension";
+				PRODUCT_NAME = "icolors-safari-extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E12FB12F2A742AE3009AFBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/icolors-safari-extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "icolors-safari-extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.icolors-safari-extension";
+				PRODUCT_NAME = "icolors-safari-extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12FB0BA2A742AE0009AFBFE /* Build configuration list for PBXProject "icolors-safari-extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12FB1202A742AE3009AFBFE /* Debug */,
+				E12FB1212A742AE3009AFBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12FB1222A742AE3009AFBFE /* Build configuration list for PBXNativeTarget "icolors-safari-extension Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12FB1232A742AE3009AFBFE /* Debug */,
+				E12FB1242A742AE3009AFBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12FB1262A742AE3009AFBFE /* Build configuration list for PBXNativeTarget "icolors-safari-extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12FB1272A742AE3009AFBFE /* Debug */,
+				E12FB1282A742AE3009AFBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12FB1292A742AE3009AFBFE /* Build configuration list for PBXNativeTarget "icolors-safari-extension Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12FB12A2A742AE3009AFBFE /* Debug */,
+				E12FB12B2A742AE3009AFBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12FB12D2A742AE3009AFBFE /* Build configuration list for PBXNativeTarget "icolors-safari-extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12FB12E2A742AE3009AFBFE /* Debug */,
+				E12FB12F2A742AE3009AFBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E12FB0B72A742AE0009AFBFE /* Project object */;
+}
