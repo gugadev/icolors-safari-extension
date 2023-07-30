@@ -97,11 +97,10 @@ function start (color) {
         if (themeColors.length > 0) {
             console.log("[iColors#content.js] Removing existent theme-colors...", themeColors)
             try {
-                // a few sites have conflicts with removing the theme-color tags.
-                // For eg. https://ui.shadcn.com
                 Array.from(themeColors).forEach(node => {
-                    node.removeAttribute('theme-color')
-                    node.setAttribute('themex-color')
+                    node.id = 'icolors'
+                    node.setAttribute('content', color)
+                    observeMeta(node)
                 })
             } catch {}
             observeForAddings()
